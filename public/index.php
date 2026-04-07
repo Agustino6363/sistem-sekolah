@@ -9,7 +9,7 @@ $router = new Router();
 //Register Routes
 $router->add('GET','/students', 'StudentController', 'index');
 $router->add('Get','/students/create', 'StudentController', 'create');
-$router->add('Get','/students/(id)', 'StudentController', 'show');
+$router->add('Get','/students/{id}', 'StudentController', 'show');
 
 $router->run();
 
