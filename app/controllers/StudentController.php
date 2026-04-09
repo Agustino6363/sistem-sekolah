@@ -19,7 +19,7 @@ class StudentController extends Controller
             $this->view('students.create');
     }
 
-    public function show(string $id)
+    public function show(string )
 
     {
             $this->view('students.show');
