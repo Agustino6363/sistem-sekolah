@@ -7,7 +7,7 @@ class Database
 
     protected $connection;
 
-    public function__construct()
+    public function __construct()
     {
         $this->connection = mysqli_connect(
             DB_HOST,
